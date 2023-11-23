@@ -32,9 +32,9 @@ const valueRate = ref(4)
         <el-icon><Link /></el-icon>
         https://www.actelecom.net/telecom
       </p>
-      <el-image class="mt-4" src="../../public/profile_company.png" fit="cover" />
+      <el-image class="mt-4" src="../../profile_company.png" fit="cover" />
       <el-card class="rounded--lg mt-2" shadow="never">
-        <el-image src="../../public/profile_company_qr.png" fit="cover" />
+        <el-image src="../../profile_company_qr.png" fit="cover" />
       </el-card>
       <div>
         <el-button color="#DE1C7D" class="mt-4 w-full" :icon="Share"> Compartir perfil </el-button>

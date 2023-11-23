@@ -2,7 +2,7 @@
   <div class="parallax-container">
     <el-image
       class="parallax-image"
-      src="../../public/portada.png"
+      src="../../portada.png"
       fit="fill"
     />
   </div>
