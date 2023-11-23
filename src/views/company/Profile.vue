@@ -352,13 +352,11 @@ const {
 } = storeToRefs(useCompanyStore())
 </script>
 
-<style lang="scss">
-.title {
-  .el-divider__text {
-    font-weight: 630;
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-    color: #1a247c;
-  }
+<style>
+.title > .el-divider__text {
+  font-weight: 630;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: #1a247c;
 }
 </style>

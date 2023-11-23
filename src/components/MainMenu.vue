@@ -55,7 +55,9 @@ const valueRate = ref(4)
     <Parallax />
     <CompanyCover />
     <div class="flex flex-wrap sm:pb-3 xs:pb-3 md:pb-0 lg:pb-0 lg:gap-28">
-      <div class="w-full md:w-12/12 sm:w-12/12 lg:w-3/12 p-3 hidden lg:block detail_cover_hidden"></div>
+      <div
+        class="w-full md:w-12/12 sm:w-12/12 lg:w-3/12 p-3 hidden lg:block detail_cover_hidden"
+      ></div>
       <div class="w-full md:w-12/12 sm:w-12/12 lg:w-8/12 p-3 xs:items-center detail_cover">
         <el-card class="rounded--lg el-card_border_none" shadow="never">
           <div class="flex flex-wrap">
@@ -83,7 +85,7 @@ const valueRate = ref(4)
     </div>
   </el-container>
 </template>
-<style lang="scss">
+<style>
 .el-menu--horizontal.el-menu {
   border-bottom: none;
 }
@@ -96,17 +98,11 @@ img {
   height: auto;
 }
 
-.rounded {
-  &--lg {
-    border-radius: 0.5rem;
-  }
+.rounded--lg {
+  border-radius: 0.5rem;
 }
 
 .el-card_border_none {
   border: none;
 }
-
-// :deep(.el-card__body) {
-//   padding-left: inherit !important;
-// }
 </style>

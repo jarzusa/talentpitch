@@ -13,7 +13,7 @@ const valueRate = ref(4)
       class="flex justify-center items-center text-center min-w-40em rounded--lg"
       shadow="never"
     >
-      <el-avatar class="custom-bg__avatar--blue" :size="200">
+      <el-avatar class="custom-bg_avatar--blue" :size="200">
         <p class="text-blue-700 font-extrabold text-6xl">AC</p>
       </el-avatar>
       <p class="text-blue-700 font-semibold text-xl mt-3">A.C. Telecom</p>
@@ -48,18 +48,12 @@ const valueRate = ref(4)
     </el-card>
   </div>
 </template>
-<style lang="scss" scoped>
-.custom-bg {
-  &__avatar {
-    &--blue {
-      background-color: #e0f0fa; /* Reemplaza esto con el color deseado */
-    }
-  }
+<style scoped>
+.custom-bg_avatar--blue {
+  background-color: #e0f0fa; /* Reemplaza esto con el color deseado */
 }
 
-.rounded {
-  &--lg {
-    border-radius: 0.5rem;
-  }
+.rounded--lg {
+  border-radius: 0.5rem;
 }
 </style>
