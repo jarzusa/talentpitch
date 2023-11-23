@@ -20,6 +20,10 @@ header {
   max-height: 100vh;
 }
 
+:global(body) {
+  background-color: white;
+}
+
 .logo {
   display: block;
   margin: 0 auto 2rem;
@@ -48,6 +52,17 @@ nav a {
 
 nav a:first-of-type {
   border: 0;
+}
+
+:global(.container_relative) {
+  background-color: white;
+}
+:global(.detail_cover) {
+  background-color: white;
+}
+
+:global(.detail_cover_hidden) {
+  background-color: white;
 }
 
 @media (max-width: 1363px) {
