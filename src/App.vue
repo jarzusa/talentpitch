@@ -54,17 +54,6 @@ nav a:first-of-type {
   border: 0;
 }
 
-:global(.container_relative) {
-  background-color: white;
-}
-:global(.detail_cover) {
-  background-color: white;
-}
-
-:global(.detail_cover_hidden) {
-  background-color: white;
-}
-
 @media (max-width: 1363px) {
   :global(.container_relative) {
     position: relative;
